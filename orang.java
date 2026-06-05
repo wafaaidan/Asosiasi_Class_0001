@@ -9,6 +9,7 @@ abstract class Orang {
         return nama;
     }
 
+public abstract void tampilkanPeran();
     
     public static void main(String[] args) {
         
