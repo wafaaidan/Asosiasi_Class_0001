@@ -20,6 +20,10 @@ class MataKuliah {
         this.nama = nama;
         this.sks = sks;
     }
+
+    public String getInfo(){
+        return kode + " - " + nama + "(" + sks + "SKS)";
+    }
 }
     public static void main(String[] args) {
         
