@@ -57,6 +57,12 @@ class Dosen extends orang {
     }
 }
 public class Main {
-    
+    public static void main(String[] args) {
+        MataKuliah pbo = new MataKuliah("IF204", "PBO", 3);
+        MataKuliah web = new MataKuliah("IF305", "Web", 3);
+        MataKuliah strukturData = new MataKuliah("IF201", "Struktur Data", 3);
+
+        
+    }
 }
 
